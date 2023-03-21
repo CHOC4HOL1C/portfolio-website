@@ -130,6 +130,9 @@ button#burgir-button {
 a.burgir {
     display: none;
 } */
+.fas {
+    margin-right: 17px;
+}
 
 #flex-container1 {
     display: flex;
@@ -350,6 +353,9 @@ strong {
     text-align: justify;
     margin-right: 20px;
 }
+h2 {
+    text-align: left;
+}
 .image-item {
     justify-content: flex-end;
     width: 40%;
@@ -374,15 +380,20 @@ strong {
 
 /* ContacMe.html css */
 #email-me{
-    width: 200px;
+    display: flex;
+    width: 50%;
     justify-content: flex-start;
+    /* flex-wrap: wrap; */
+
     
     /* flex-direction: column; */
 }
 p#contact-me {
-    width: 30%;
+    width: 70%;
     padding-top: 6px;
     padding-left: 32px;
+    text-align: left;
+    flex-wrap: wrap;
 }
 p#socials {
     padding: 10px 10px;
@@ -558,6 +569,15 @@ img.social-icons {
     }
     .image-item {
         display: none;
+    }
+
+    /* ContactMe.html CSS Media Query */
+    #contact-page-div {
+        height: fit-content;
+    }
+    #email-me {
+        flex-wrap: wrap;
+        width: 100%;
     }
 
 }

@@ -11,10 +11,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
-    <script>
-
-    </script>
-
 </head>
 <body>
     <div class = "navbar-div">
@@ -24,6 +20,7 @@
                 <li><a href = "Work.html">Work</a></li>
                 <li><a href = "Research.html">Research</a></li>
                 <li><a href = "Projects.html">Projects</a></li>
+                <li class = "hidden-contact"><a href = "ContactMe.html">Contact Me</a></li>
             </ul>
             <div class = "menu-btn" onclick="toggle(); return false;">
                 <i class = "fas fa-bars"></i>
@@ -35,26 +32,26 @@
         <h1 class = "work-flex-item1">Contact Me 📮 </h1>
     </div>
 
-    <div class = "break-line"></div>
+    <div class = "break-line-different"></div>
 
     <div class = "findme-div"></div>
-    <div class = "works-flex-container-2" style = "background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);">
+    <div class = "works-flex-container-2" id = "contact-page-div" style = "background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);">
         <div class = "row-item1">
-            <a class = "body-item" id = "email-me">
+            <div class = "body-item" id = "email-me">
                 <strong><h1>Email Me</h1></strong><br>
 
                 <p id = "contact-me">You can reach me at my Email <a class = "linky" href = "mailto:1920392@iub.edu.bd" target="">1920392@iub.edu.bd</a></p>
 
-            </a>
+            </div>
         </div>
     </div>
 
     <div class = "break-line-different"></div>
 
-    <div class = "works-flex-container-2" style = "background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);">
+    <div class = "works-flex-container-2" id = "contact-page-div" style = "background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);">
         <div class = "row-item1">
-            <a class = "body-item" id = "email-me" style = "text-align: left;">
-                <strong><h1>Find me on socials</h1></strong><br>
+            <div class = "body-item" id = "email-me" style = "text-align: left;">
+                <strong><h1 style="margin-right: 10%;">Find me on socials</h1></strong><br>
 
                 <p id = "socials"><a class = "linky" href = "https://github.com/CHOC4HOL1C" target="_blank"><img class = "social-icons" src = "github.png" >Github</a></p>
                 <p id = "socials"><a class = "linky" href = "https://www.linkedin.com/in/chocaholic/" target="_blank"><img class = "social-icons" src = "linkedin.png" >LinkedIn</a></p>
@@ -65,9 +62,12 @@
 
 
 
-            </a>
+            </div>
         </div>
     </div>
+    <footer style = "position: fixed; bottom: 1%;">
+        <p class = "bodytext" style = margin-left:50px;>&copy; Zannat Chowdhury 2023. All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
