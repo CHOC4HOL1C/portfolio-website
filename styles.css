@@ -429,6 +429,17 @@ img.social-icons {
     p {
         font-size: large;    
     }
+    .works-flex-container-2{
+        height:fit-content ;
+        width: auto;
+        justify-content: end;
+
+    }
+    li.body-bullet {
+        font-size: 18px;
+        text-align: left;
+        color: #edf0f1;
+    }
 }
 
 
@@ -555,7 +566,7 @@ img.social-icons {
         margin: 0px 0px;
     }
     .works-flex-container-2{
-        height: 70%;
+        /* height: 70%; */
         width: auto;
         justify-content: end;
 
